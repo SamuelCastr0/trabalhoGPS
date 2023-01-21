@@ -17,6 +17,8 @@ import Calendar from "../../components/Calendar";
 import Events from "../Events";
 import About from "../About";
 import Tourism from "../Tourism";
+import Contact from "../Contact";
+import Footer from "../../components/Footer";
 
 function Home() {
   return (
@@ -28,6 +30,8 @@ function Home() {
       <Events />
       <About />
       <Tourism />
+      <Contact />
+      <Footer />
     </Box>
   );
 }

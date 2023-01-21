@@ -13,7 +13,8 @@ import { DateTime } from "luxon";
 
 import { Image } from "@chakra-ui/react";
 
-import imageVesperata from "./../../assets/imageVesperata.jpeg";
+import CachoeiraSentinela from "./../../assets/cachoeiraSentinela.svg";
+import Catedral from "./../../assets/catedralDiamantina.svg";
 import Calendar from "../../components/Calendar";
 import Events from "../Events";
 import About from "../About";
@@ -29,11 +30,11 @@ function Tourism() {
         <Box width="70%" bg="white" borderRadius="25" boxShadow="dark-lg">
           <Flex>
             <Box p="10">
-              <Image width="30%" src={imageVesperata} objectFit="cover" />
+              <Image width="900px" src={Catedral} objectFit="cover" />
             </Box>
             <Spacer />
             <Box p="10">
-              <Image width="30%" src={imageVesperata} objectFit="cover" />
+              <Image width="900px" src={CachoeiraSentinela} objectFit="cover" />
             </Box>
           </Flex>
         </Box>
