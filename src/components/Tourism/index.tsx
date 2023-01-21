@@ -1,31 +1,16 @@
-import {
-  Box,
-  Button,
-  Center,
-  Flex,
-  Grid,
-  GridItem,
-  Spacer,
-  Text,
-  VStack,
-} from "@chakra-ui/react";
-import { DateTime } from "luxon";
+import { Box, Center, Flex, Spacer } from "@chakra-ui/react";
 
 import { Image } from "@chakra-ui/react";
 
-import CachoeiraSentinela from "./../../assets/cachoeiraSentinela.svg";
-import Catedral from "./../../assets/catedralDiamantina.svg";
-import Calendar from "../../components/Calendar";
-import Events from "../Events";
-import About from "../About";
+import CachoeiraSentinela from "@/assets/cachoeiraSentinela.svg";
+import Catedral from "@/assets/catedralDiamantina.svg";
 
 function Tourism() {
   return (
     <Box alignItems="center">
-      <Center m={50} fontSize="36px" color="#FF7B7B" as="b">
+      <Center m={50} fontSize="36px" color="brand.200" as="b">
         TURISMO
       </Center>
-
       <Center>
         <Box width="70%" bg="white" borderRadius="25" boxShadow="dark-lg">
           <Flex>

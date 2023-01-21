@@ -1,5 +1,4 @@
 import { Box, Center, Flex, Text, Wrap, WrapItem } from "@chakra-ui/react";
-import { DateTime } from "luxon";
 
 import { Image } from "@chakra-ui/react";
 
@@ -9,8 +8,8 @@ import Location from "./../../assets/location.svg";
 
 function Contact() {
   return (
-    <Box bg="#FF7B7B" height="550px">
-      <Center mt={50} fontSize="36px" color="white" as="b" p={50}>
+    <Box bg="brand.200" height="550px">
+      <Center mt="50" fontSize="36px" color="white" as="b" p="50">
         CONTATO
       </Center>
 
