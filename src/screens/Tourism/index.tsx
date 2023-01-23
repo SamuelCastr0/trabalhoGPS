@@ -21,7 +21,7 @@ import About from "../About";
 
 function Tourism() {
   return (
-    <Box alignItems="center">
+    <Box alignItems="center" id="tourism">
       <Center m={50} fontSize="36px" color="#FF7B7B" as="b">
         TURISMO
       </Center>

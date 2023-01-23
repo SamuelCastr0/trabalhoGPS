@@ -19,10 +19,12 @@ import About from "../About";
 import Tourism from "../Tourism";
 import Contact from "../Contact";
 import Footer from "../../components/Footer";
+import Header from "../../components/Header";
 
 function Home() {
   return (
     <Box alignItems="center">
+      <Header />
       <Box>
         <Image width="100%" src={imageVesperata} objectFit="cover" />
       </Box>

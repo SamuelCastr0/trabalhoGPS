@@ -13,7 +13,7 @@ import Calendar from "../../components/Calendar";
 
 function About() {
   return (
-    <Box alignItems="center" bg="#FF7B7B" height="500px">
+    <Box alignItems="center" bg="#FF7B7B" height="500px" id="about">
       <Box>
         <Center mt={50} fontSize="36px" as="b" p={50} color="white">
           SOBRE A VESPERATA

@@ -9,7 +9,7 @@ import Location from "./../../assets/location.svg";
 
 function Contact() {
   return (
-    <Box bg="#FF7B7B" height="550px">
+    <Box bg="#FF7B7B" height="550px" id="contact">
       <Center mt={50} fontSize="36px" color="white" as="b" p={50}>
         CONTATO
       </Center>
