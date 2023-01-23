@@ -2,7 +2,7 @@ import { Box, Center, Text } from "@chakra-ui/react";
 
 function About() {
   return (
-    <Box alignItems="center" bg="brand.200" height="500px">
+    <Box alignItems="center" bg="brand.200" height="500px" id="about">
       <Box>
         <Center mt={50} fontSize="36px" as="b" p={50} color="white">
           SOBRE A VESPERATA

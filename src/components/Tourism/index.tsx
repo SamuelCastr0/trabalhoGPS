@@ -7,7 +7,7 @@ import Catedral from "@/assets/catedralDiamantina.svg";
 
 function Tourism() {
   return (
-    <Box alignItems="center">
+    <Box alignItems="center" id="tourism">
       <Center m={50} fontSize="36px" color="brand.200" as="b">
         TURISMO
       </Center>

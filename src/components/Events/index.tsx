@@ -3,7 +3,7 @@ import { Calendar } from "@/components";
 
 function Events() {
   return (
-    <Box alignItems="center">
+    <Box alignItems="center" id="events">
       <Center m={50} fontSize="36px" color="brand.200" as="b">
         EVENTOS
       </Center>

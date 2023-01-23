@@ -1,6 +1,6 @@
 export { default as Calendar } from "./Calendar";
 export { default as Footer } from "./Footer";
-export { default as Header } from "./Calendar";
+export { default as Header } from "./Header";
 export { default as About } from "./About";
 export { default as Contact } from "./Contact";
 export { default as Events } from "./Events";
