@@ -5,6 +5,7 @@ import {
   Flex,
   Grid,
   GridItem,
+  Link,
   Modal,
   ModalBody,
   ModalCloseButton,
@@ -26,6 +27,7 @@ export interface EventProps {
   start: string;
   end: string;
   summary: string;
+  link: string;
 }
 
 function Calendar() {
@@ -77,7 +79,9 @@ function Calendar() {
         gap="4"
       >
         <Flex justify="space-between" align="end" width="100%">
-          <Box fontSize="2rem">{calendar.monthLong}</Box>
+          <Box textTransform="capitalize" fontSize="2rem">
+            {calendar.monthLong}
+          </Box>
           <Box fontSize="2.5rem">{calendar.year}</Box>
         </Flex>
         <Grid templateColumns="repeat(7, 1fr)" gap="1rem" width="100%">
@@ -126,7 +130,7 @@ function Calendar() {
             color="white"
             onClick={handlePrevious}
           >
-            Prev
+            Anterior
           </Button>
           <Button
             variant="ghost"
@@ -134,7 +138,7 @@ function Calendar() {
             color="white"
             onClick={handleNext}
           >
-            Next
+            Próximo
           </Button>
         </Flex>
       </VStack>
@@ -161,6 +165,20 @@ function Calendar() {
             <Box>
               Horário: {selectedEvent?.start} até {selectedEvent?.end}
             </Box>
+            <a
+              style={{ width: "100%" }}
+              href={selectedEvent?.link}
+              target="_blank"
+            >
+              <Button
+                width="100%"
+                justifySelf="center"
+                background="brand.200"
+                color="white"
+              >
+                Comprar Ingresso
+              </Button>
+            </a>
           </ModalBody>
         </ModalContent>
       </Modal>
